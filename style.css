@@ -1,0 +1,307 @@
+
+header
+{
+    
+    text-align: left;
+    background-color: rgb(235, 221, 205);
+    margin: 20px;
+    padding: 30px;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 15px;
+    font-family: Arial;
+
+}
+
+h1
+{
+color: rgb(0, 0, 0);
+font-family: Arial;
+font-size: 40px;
+}
+
+
+
+b{
+text-decoration: none;
+font-size: 16px;
+font-family: Arial;
+}
+
+ul
+{
+    font-family: Arial;
+}
+
+#Bloque
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: rgb(235, 221, 205);
+    margin: 20px;
+    padding: 30px;
+    border: 3px solid black;
+    border-radius: 1%;
+}
+
+#bloque2
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: rgb(235, 221, 205);
+    margin: 20px;
+    padding: 10%;
+    border: 3px solid black;
+    border-radius: 1%;
+}
+
+
+
+
+h2
+{
+    color: rgb(27, 108, 179);
+    border: 4px solid rgb(27, 108, 179);
+    border-radius: 5px;
+    margin-left: auto;
+    font-family: Arial;
+    text-align: center;
+    
+}
+
+
+#mifoto
+{
+border: 2px solid rgb(27, 108, 179);
+border-radius: 12px;
+}
+
+#links
+{
+    color: blue;
+    
+}
+
+#form
+{
+    text-align: left;
+    margin: auto;
+    width: 300px;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea
+{
+    width: 80%;
+    border: 2px;
+    border-radius: 5px;
+}
+
+
+#Enviar
+{
+   color: white; 
+   background-color: blue;
+   border-color: black;
+   border: 15px;
+   padding: 15px 20px;
+   border-radius: 10%;
+   margin-left: 13%;
+}
+
+
+
+label
+{
+    font-weight: bold;
+}
+
+
+a{
+    font-family: Arial;
+}
+
+#info
+{
+
+    background-color: rgb(235, 221, 205);
+    margin: 10%;
+    padding: 30px;
+    border: 3px solid black;
+}
+
+.foto
+{
+    background-color: rgb(235, 221, 205);
+    margin: 5%;
+    padding: 30px;
+    border: 3px solid black;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) 
+{
+
+    body {
+    font-size: 20px;
+    }
+
+    header
+    {
+        
+        text-align: left;
+        background-color: rgb(6, 136, 136);
+        margin: 10%;
+        padding: 12%;
+        border: 3px solid black;
+        text-align: center;
+        border-radius: 15px;
+        font-family: Arial;
+    
+    }
+    
+    h1
+    {
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 40px;
+    }
+    
+    
+    
+    b{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial;
+    }
+    
+    ul
+    {
+        font-family: Arial;
+    }
+    
+    #Bloque
+    {
+        display: block;
+        justify-content: space-between;
+        margin-right: 10%;
+        margin-left: 10%;
+        background-color: rgb(6, 136, 136);
+        margin: 15%;
+        padding: 10%;
+        
+    }
+    
+    #bloque2
+    {
+        display: block;
+        justify-content: space-between;
+        margin-right: 20%;
+        margin-left: 20%;
+        background-color: rgb(6, 136, 136);
+        margin: 15%;
+        padding: 10%;
+        border: 3px solid black;
+    }
+    
+    
+    /*.mensaje
+    {
+        font-size: 16px;
+    }*/
+    
+    h2 
+    {   
+        font-size: 20px;
+        color: rgb(27, 108, 179);
+        border: 4px solid rgb(27, 108, 179);
+        border-radius: 5px;
+        margin-left: auto;
+        font-family: Arial;
+        text-align: center;
+    }
+    
+    
+    #mifoto
+    {
+    border: 2px solid rgb(27, 108, 179);
+    border-radius: 12px;
+    }
+    
+    #links
+    {
+        color: blue;
+        
+    }
+    
+    #form
+    {
+        text-align: left;
+        margin: auto;
+        width: 300px;
+    
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea
+    {
+        width: 80%;
+        border: 2px;
+        border-radius: 5px;
+    }
+    
+    
+    #Enviar
+    {
+       color: white; 
+       background-color: blue;
+       border-color: black;
+       border: 2%;
+       padding: 2% 3%;
+       border-radius: 10%;
+       margin-left: 13%;
+    }
+    
+    
+    
+    label
+    {
+        font-weight: bold;
+    }
+    
+    
+    a{
+        font-family: Arial;
+    }
+    
+    #info
+    {
+    
+        background-color: rgb(6, 136, 136);
+        margin: 10%;
+        padding: 30px;
+        border: 3px solid black;
+        border-radius: 2px;
+    }
+    
+    .foto
+    {
+       position: relative;
+       border: 0cap;
+    }
+    }
+
+
+
+   
